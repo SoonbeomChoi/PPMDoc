@@ -22,6 +22,9 @@ layout: nil
         width: 80%;
         vertical-align: top;
     }
+    table tr td:nth-child(2)::first-line {
+        font-weight: bold;
+    }
 </style>
 
 <table>
