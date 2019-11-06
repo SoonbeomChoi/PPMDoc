@@ -166,35 +166,35 @@ layout: nil
 		</td>
 	</tr>
 	<tr>
-		<td>Array<double></td>
+		<td>Array&lt;double&gt;</td>
 		<td>
 			getPitches()<br>
 			Return pitch values of segments
 		</td>
 	</tr>
 	<tr>
-		<td>Array<double></td>
+		<td>Array&lt;double&gt;</td>
 		<td>
 			getInitSegmentPos()<br>
 			Return relative segment positions before the sample is modified
 		</td>
 	</tr>
 	<tr>
-		<td>Array<double></td>
+		<td>Array&lt;double&gt;</td>
 		<td>
 			getSegmentPos()<br>
 			segmentPos is equal to initSegmentPos before the sample is modified
 		</td>
 	</tr>
 	<tr>
-		<td>Array<int></td>
+		<td>Array&lt;int&gt;</td>
 		<td>
 			getSliceIndices()<br>
 			Return the array of slice indices among segments
 		</td>
 	</tr>
 	<tr>
-		<td>Array<double></td>
+		<td>Array&lt;double&gt;</td>
 		<td>
 			getSlicePos()<br>
 			slicePos is similar to segmentPos and it is optained based on sliceIndices
@@ -210,21 +210,21 @@ layout: nil
 	<tr>
 		<td>void</td>
 		<td>
-			setPitches(Array<double> getPitches)<br>
+			setPitches(Array&lt;double&gt; getPitches)<br>
 			Set class variable pitches, pitches of segments
 		</td>
 	</tr>
 	<tr>
 		<td>void</td>
 		<td>
-			setInitSegmentPos(Array<double> getInitSegmentPos)<br>
+			setInitSegmentPos(Array&lt;double&gt; getInitSegmentPos)<br>
 			Set class variable initSegmentPos, initial segment position array when sample is loaded
 		</td>
 	</tr>
 	<tr>
 		<td>void</td>
 		<td>
-			setSegmentPos(Array<double> getSegmentPos)<br>
+			setSegmentPos(Array&lt;double&gt; getSegmentPos)<br>
 			Set class variable segmentPos, current segment position array
 		</td>
 	</tr>
@@ -238,14 +238,14 @@ layout: nil
 	<tr>
 		<td>void</td>
 		<td>
-			setSlicePos(Array<double> getSlicePos)<br>
+			setSlicePos(Array&lt;double&gt; getSlicePos)<br>
 			Set class variable slicePos, position array of slices
 		</td>
 	</tr>
 	<tr>
 		<td>void</td>
 		<td>
-			setSliceIndices(Array<int> getSliceIndices)<br>
+			setSliceIndices(Array&lt;int&gt; getSliceIndices)<br>
 			Set class variable sliceIndices, indices of segments that are slice
 		</td>
 	</tr>
@@ -446,7 +446,7 @@ layout: nil
 		</td>
 	</tr>
 	<tr>
-		<td>Array<File>*</td>
+		<td>Array&lt;File&gt;*</td>
 		<td>
 			getPatterns()<br>
 			Get patterns selected on the GUI
