@@ -17,6 +17,7 @@ layout: nil
     table tr td:nth-child(1) {
         width: 20%;
         vertical-align: top;
+        text-align: right;
     }
     table tr td:nth-child(2) {
         width: 80%;
@@ -24,6 +25,7 @@ layout: nil
     }
     table tr td:nth-child(2)::first-line {
         font-weight: bold;
+        font-size: 110%;
     }
 </style>
 
