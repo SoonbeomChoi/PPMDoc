@@ -201,9 +201,9 @@ layout: nil
 		</td>
 	</tr>
 	<tr>
-		<td>ScopedPointer<AudioSampleBuffer></td>
+		<td>ScopedPointer&lt;AudioSampleBuffer&gt;</td>
 		<td>
-			getSamples(ScopedPointer<AudioSampleBuffer> sourceBuffer, double startPos, double destPos)<br>
+			getSamples(ScopedPointer&lt;AudioSampleBuffer&gt; sourceBuffer, double startPos, double destPos)<br>
 			Returns specific audioSampleBuffer from startPos to destPos proportion of entire number of samples.
 		</td>
 	</tr>
@@ -315,7 +315,7 @@ layout: nil
 	<tr>
 		<td>void</td>
 		<td>
-			setUsingModified(ScopedPointer<AudioSampleBuffer> getData) <br>
+			setUsingModified(ScopedPointer&lt;AudioSampleBuffer&gt; getData) <br>
 			Load modified pattern sample to wsola and set wsola parameters
 		</td>
 	</tr>
