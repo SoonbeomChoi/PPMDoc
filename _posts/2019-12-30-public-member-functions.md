@@ -22,7 +22,7 @@ layout: nil
     table tr td:nth-child(2) {
         width: 80%;
         vertical-align: top;
-        padding-left: 10px;
+        padding-left: 20px;
     }
     table tr td:nth-child(2)::first-line {
         font-weight: bold;
