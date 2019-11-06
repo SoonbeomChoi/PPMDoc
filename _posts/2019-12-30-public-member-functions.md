@@ -31,15 +31,13 @@ layout: nil
 			init()<br>
 			Initialize or reset sounds of ppmSynth
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
 		<td>
-			loadInstruments(StringRef instName, bool isPattern) {<br>
+			loadInstruments(StringRef instName, bool isPattern) <br>
 			Load specific instruments
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -47,7 +45,6 @@ layout: nil
 			modify()<br>
 			Modify current pattern based on initSegmentPos, segmentPos and pitches
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -55,7 +52,6 @@ layout: nil
 			threadModify()<br>
 			Wrapper for function modify() running in back-thread
 		</td>
-
 	</tr>
 	<tr>
 		<td>StringArray</td>
@@ -63,7 +59,6 @@ layout: nil
 			getSampleFileNames()<br>
 			Return currently selected sample file names
 		</td>
-
 	</tr>
 	<tr>
 		<td>XmlElement*</td>
@@ -71,7 +66,6 @@ layout: nil
 			getMetaData()<br>
 			Return metadata of current pattern
 		</td>
-
 	</tr>
 	<tr>
 		<td>int*</td>
@@ -79,7 +73,6 @@ layout: nil
 			getSelectedFiles()<br>
 			Return selected pattern files in GUI
 		</td>
-
 	</tr>
 	<tr>
 		<td>int</td>
@@ -87,7 +80,6 @@ layout: nil
 			getCurrentNote()<br>
 			Return currently or recently played note
 		</td>
-
 	</tr>
 	<tr>
 		<td>int</td>
@@ -95,7 +87,6 @@ layout: nil
 			getPatternSelectionNote()<br>
 			Return currently selected pattern selection note
 		</td>
-
 	</tr>
 	<tr>
 		<td>double</td>
@@ -103,7 +94,6 @@ layout: nil
 			getLength()<br>
 			Return length of current sample in seconds
 		</td>
-
 	</tr>
 	<tr>
 		<td>double</td>
@@ -111,7 +101,6 @@ layout: nil
 			getHostSampleRate()<br>
 			Return host sampling rate
 		</td>
-
 	</tr>
 	<tr>
 		<td>AudioSampleBuffer</td>
@@ -119,7 +108,6 @@ layout: nil
 			getCurrentSampleBuffer()<br>
 			Return currently loaded sample buffer
 		</td>
-
 	</tr>
 	<tr>
 		<td>AudioSampleBuffer</td>
@@ -127,7 +115,6 @@ layout: nil
 			getTempBuffer()<br>
 			Return temporary buffer for audio thumbnail when modifying sample
 		</td>
-
 	</tr>
 	<tr>
 		<td>double</td>
@@ -135,7 +122,6 @@ layout: nil
 			getCurrentPosition()<br>
 			Return currently playing sample position ratio relative to entire sample
 		</td>
-
 	</tr>
 	<tr>
 		<td>File</td>
@@ -143,7 +129,6 @@ layout: nil
 			getCurrentPattern()<br>
 			Return currently loaded pattern file (or file name)
 		</td>
-
 	</tr>
 	<tr>
 		<td>bool</td>
@@ -151,7 +136,6 @@ layout: nil
 			getPlayingState()<br>
 			Return current playing state
 		</td>
-
 	</tr>
 	<tr>
 		<td>bool</td>
@@ -159,7 +143,6 @@ layout: nil
 			getBufferChangeState()<br>
 			Return buffer change state whether pointer of current buffer is changed or not
 		</td>
-
 	</tr>
 	<tr>
 		<td>bool</td>
@@ -167,7 +150,6 @@ layout: nil
 			getModifyingState()<br>
 			Return whether sample is modifying or not
 		</td>
-
 	</tr>
 	<tr>
 		<td>bool</td>
@@ -175,7 +157,6 @@ layout: nil
 			getDeleteState()<br>
 			Return whether segment is deleting
 		</td>
-
 	</tr>
 	<tr>
 		<td>int</td>
@@ -183,7 +164,6 @@ layout: nil
 			getDeleteIndex()<br>
 			Return index of currently deleting segment
 		</td>
-
 	</tr>
 	<tr>
 		<td>Array<double></td>
@@ -191,7 +171,6 @@ layout: nil
 			getPitches()<br>
 			Return pitch values of segments
 		</td>
-
 	</tr>
 	<tr>
 		<td>Array<double></td>
@@ -199,7 +178,6 @@ layout: nil
 			getInitSegmentPos()<br>
 			Return relative segment positions before the sample is modified
 		</td>
-
 	</tr>
 	<tr>
 		<td>Array<double></td>
@@ -207,7 +185,6 @@ layout: nil
 			getSegmentPos()<br>
 			segmentPos is equal to initSegmentPos before the sample is modified
 		</td>
-
 	</tr>
 	<tr>
 		<td>Array<int></td>
@@ -215,7 +192,6 @@ layout: nil
 			getSliceIndices()<br>
 			Return the array of slice indices among segments
 		</td>
-
 	</tr>
 	<tr>
 		<td>Array<double></td>
@@ -223,7 +199,6 @@ layout: nil
 			getSlicePos()<br>
 			slicePos is similar to segmentPos and it is optained based on sliceIndices
 		</td>
-
 	</tr>
 	<tr>
 		<td>ScopedPointer<AudioSampleBuffer></td>
@@ -231,7 +206,6 @@ layout: nil
 			getSamples(ScopedPointer<AudioSampleBuffer> sourceBuffer, double startPos, double destPos)<br>
 			Returns specific audioSampleBuffer from startPos to destPos proportion of entire number of samples.
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -239,7 +213,6 @@ layout: nil
 			setPitches(Array<double> getPitches)<br>
 			Set class variable pitches, pitches of segments
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -247,7 +220,6 @@ layout: nil
 			setInitSegmentPos(Array<double> getInitSegmentPos)<br>
 			Set class variable initSegmentPos, initial segment position array when sample is loaded
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -255,7 +227,6 @@ layout: nil
 			setSegmentPos(Array<double> getSegmentPos)<br>
 			Set class variable segmentPos, current segment position array
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -263,7 +234,6 @@ layout: nil
 			setPrevSegmentPos()<br>
 			Set class variable prevSegmentPos, previous, before any changes, segment position array
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -271,7 +241,6 @@ layout: nil
 			setSlicePos(Array<double> getSlicePos)<br>
 			Set class variable slicePos, position array of slices
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -279,7 +248,6 @@ layout: nil
 			setSliceIndices(Array<int> getSliceIndices)<br>
 			Set class variable sliceIndices, indices of segments that are slice
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -287,7 +255,6 @@ layout: nil
 			insertSliceIndex(int getIndex)<br>
 			Insert new slice and its index to sliceIndices
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -295,7 +262,6 @@ layout: nil
 			deleteSliceIndex(int getIndex)<br>
 			Delete a slice and its index in sliceIndices
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -303,7 +269,6 @@ layout: nil
 			setThumbnail(DrawAudioThumbnail* thumbnail)<br>
 			DrawAudioThumbnail class uses _thumbnail to draw audio thumbnail
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -311,7 +276,6 @@ layout: nil
 			setPosInfo(DrawPosInfo* posInfo)<br>
 			DrawPosInfo class uses _posInfo to draw beat information
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -319,7 +283,6 @@ layout: nil
 			setCurrentNote(int getCurrentNote)<br>
 			Set class variable currentNote, currently playing note
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -327,7 +290,6 @@ layout: nil
 			setReader(File file)<br>
 			This function is used for initializing pattern sample for audioSampleBuffer
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -335,7 +297,6 @@ layout: nil
 			setBPM(double getHostBPM)<br>
 			Set class variable hostBPM
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -343,7 +304,6 @@ layout: nil
 			setUsingSingleNote()<br>
 			Load single note using PPM_SamplerSound
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -351,15 +311,13 @@ layout: nil
 			setUsingPattern()<br>
 			Load pattern sample to wsola and set wsola parameters
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
 		<td>
-			setUsingModified(ScopedPointer<AudioSampleBuffer> getData) {<br>
+			setUsingModified(ScopedPointer<AudioSampleBuffer> getData) <br>
 			Load modified pattern sample to wsola and set wsola parameters
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -367,7 +325,6 @@ layout: nil
 			setModeState(int midiNoteNumber)<br>
 			Switch between single note and pattern
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -375,7 +332,6 @@ layout: nil
 			loadAudioFile(String filePath)<br>
 			Load file to currentSampleBuffer and wsola from given filePath
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -383,7 +339,6 @@ layout: nil
 			readSegmentInfo(File xmlFile, bool loadFile)<br>
 			Read segment/slice information from given XML file path
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -391,7 +346,6 @@ layout: nil
 			setPatternSelectionNote(int getPatternSelectionNote)<br>
 			Set class variable, patternSelectionNote, from midi keyboard
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -399,7 +353,6 @@ layout: nil
 			setHostSampleRate(double sampleRate)<br>
 			Set class variable, hostSampleRate, from host sample rate
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -407,7 +360,6 @@ layout: nil
 			setStartPosition(double startPosition)<br>
 			Set start position of current buffer
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -415,7 +367,6 @@ layout: nil
 			setCurrentPosition(double currentPosition)<br>
 			Set current playing position of current buffer
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -423,7 +374,6 @@ layout: nil
 			setEndPosition(double endPosition)<br>
 			Set stop position of current buffer
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -431,7 +381,6 @@ layout: nil
 			setPlayingState(bool getPlayingState)<br>
 			Set audio playing state
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -439,7 +388,6 @@ layout: nil
 			setBufferChangeState(bool getBufferChangeState)<br>
 			Set recent state whether audio buffer is changed
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -447,7 +395,6 @@ layout: nil
 			setModifyingState(bool getModifyingState)<br>
 			Set recent state whether user is modifying the pattern
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -455,7 +402,6 @@ layout: nil
 			setDeleteState(bool getDeleteState)<br>
 			Set recent state whether user is deleting a segment
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -463,7 +409,6 @@ layout: nil
 			setDeleteIndex(int getDeleteIndex)<br>
 			Set recently deleted segment index
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -471,7 +416,6 @@ layout: nil
 			setTempBuffer(int segmentIndex)<br>
 			Set temporary audioSampleBuffer to tempBuffer
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -479,7 +423,6 @@ layout: nil
 			setTempSegmentPos()<br>
 			Set temporary segment position when segment is draged on GUI
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -487,7 +430,6 @@ layout: nil
 			transportPlay()<br>
 			start transport and playing sound
 		</td>
-
 	</tr>
 	<tr>
 		<td>void</td>
@@ -495,7 +437,6 @@ layout: nil
 			transportStop()<br>
 			stop transport and playing sound
 		</td>
-
 	</tr>
 	<tr>
 		<td>double</td>
@@ -503,7 +444,6 @@ layout: nil
 			midi2hz(double getDeltaMIDI)<br>
 			Simple midi difference to hertz scale difference conversion function
 		</td>
-
 	</tr>
 	<tr>
 		<td>Array<File>*</td>
@@ -511,6 +451,5 @@ layout: nil
 			getPatterns()<br>
 			Get patterns selected on the GUI
 		</td>
-
 	</tr>
 </table>
