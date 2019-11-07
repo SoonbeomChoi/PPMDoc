@@ -242,13 +242,31 @@ layout: nil
     <tr>
         <td> WsolaSamplerSound* </td>
         <td> wsola <br>
-        Pointer of object for time-pitch modification or DSP.
+        Pointer of object for realtime time-pitch modification or signal processing.
         </td>
     </tr>
     <tr>
         <td> ScopedPointer&lt;PPM_Resampler&gt; </td>
-        <td> wsola <br>
+        <td> ppm_resampler <br>
         Pointer of object for high quality resampling.
+        </td>
+    </tr>
+    <tr>
+        <td> ScopedPointer&lt;WSOLA_Modifier&gt; </td>
+        <td> wsolaModifier <br>
+        Pointer of object for non-realtime time-pitch modification.
+        </td>
+    </tr>
+    <tr>
+        <td> ScopedPointer&lt;DrawAudioThumbnail&gt; </td>
+        <td> _thumbnail <br>
+        Pointer of object for drawing audio thumbnail.
+        </td>
+    </tr>
+    <tr>
+        <td> ScopedPointer&lt;DrawPosInfo&gt; </td>
+        <td> _posInfo <br>
+        Pointer of object for drawing beat information.
         </td>
     </tr>
 </table>
