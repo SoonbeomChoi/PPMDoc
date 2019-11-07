@@ -431,20 +431,6 @@ layout: nil
 		</td>
 	</tr>
 	<tr>
-		<td>void</td>
-		<td>
-			transportPlay()<br>
-			start transport and playing sound
-		</td>
-	</tr>
-	<tr>
-		<td>void</td>
-		<td>
-			transportStop()<br>
-			stop transport and playing sound
-		</td>
-	</tr>
-	<tr>
 		<td>double</td>
 		<td>
 			midi2hz(double getDeltaMIDI)<br>
