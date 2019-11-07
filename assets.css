@@ -4,7 +4,7 @@
    HTML5 display definitions
    ========================================================================== */
 
-@import url(monokai.scss);
+@import "_sass/monokai.scss";
 
 /**
  * Correct `block` display not defined in IE 8/9.
