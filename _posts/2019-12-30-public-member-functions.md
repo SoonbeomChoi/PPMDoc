@@ -160,6 +160,13 @@ layout: nil
 	<tr>
 		<td>bool</td>
 		<td>
+			getSliceInsertable<br>
+			Return whether more slices can be inserted
+		</td>
+	</tr>
+	<tr>
+		<td>bool</td>
+		<td>
 			getDeleteState()<br>
 			Return whether segment is deleting
 		</td>
@@ -302,13 +309,6 @@ layout: nil
 		<td>
 			setBPM(double getHostBPM)<br>
 			Set class variable hostBPM
-		</td>
-	</tr>
-	<tr>
-		<td>void</td>
-		<td>
-			setUsingSingleNote()<br>
-			Load single note using PPM_SamplerSound
 		</td>
 	</tr>
 	<tr>

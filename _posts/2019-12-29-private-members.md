@@ -94,13 +94,8 @@ layout: nil
     </tr>
     <tr>
         <td> bool </td>
-        <td> transportState <br>
-        </td>
-    </tr>
-    <tr>
-        <td> bool </td>
         <td> fileLoadState <br>
-        State whether a file is loaded to sampler. This become true when using setUsingSingleNote(), setUsingPattern() or setUsingModified().
+        State whether a file is loaded to sampler. This become true when using setUsingPattern() or setUsingModified().
         </td>
     </tr>
     <tr>
