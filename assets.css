@@ -623,6 +623,7 @@ code {
 }
 
 #content .body code {
+  /*
   border: 1px solid #e2e7ea;
   background: #eef1f2;
   border-radius: 2px;
@@ -630,6 +631,7 @@ code {
   -webkit-border-radius: 2px;
   color: #546974;
   padding: 0 1px;
+  */
 }
 
 #content .body p > code {
