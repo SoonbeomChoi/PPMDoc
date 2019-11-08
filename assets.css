@@ -428,8 +428,7 @@ h2,
 h3,
 h4,
 p,
-ul,
-code {
+ul {
   margin: 0 0 20px;
 }
 
