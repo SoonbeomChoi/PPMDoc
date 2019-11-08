@@ -9,7 +9,7 @@
 .highlight .p { color: #f8f8f2 } /* Punctuation */
 .highlight .ch { color: #75715e } /* Comment.Hashbang */
 .highlight .cm { color: #75715e } /* Comment.Multiline */
-.highlight .cp { color: #75715e } /* Comment.Preproc */
+.highlight .cp { color: #f8f8f2 /*#75715e*/ } /* Comment.Preproc */
 .highlight .cpf { color: #75715e } /* Comment.PreprocFile */
 .highlight .c1 { color: #75715e } /* Comment.Single */
 .highlight .cs { color: #75715e } /* Comment.Special */
