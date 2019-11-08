@@ -15,12 +15,12 @@ layout: nil
         border-bottom: 1px solid black;
     }
     table tr td:nth-child(1) {
-        width: 20%;
+        width: 15%;
         vertical-align: top;
         text-align: right;
     }
     table tr td:nth-child(2) {
-        width: 80%;
+        width: 85%;
         vertical-align: top;
         padding-left: 20px;
     }
