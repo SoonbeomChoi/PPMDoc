@@ -445,7 +445,7 @@ code {
   overflow: auto;
   position: fixed;
   top: 0;
-  width: 240px;
+  width: 210px;
 }
 
 #sidebar h1 {
@@ -479,7 +479,7 @@ code {
 #sidebar ul li a {
   color: #fff;
   display: block;
-  padding: 0 0 15px;
+  padding: 0 0 20px;
 }
 #sidebar ul li a:active,
 #sidebar ul li a.active {
