@@ -60,14 +60,14 @@ layout: nil
 		</td>
 	</tr>
 	<tr>
-		<td>StringArray</td>
+		<td><a href="https://docs.juce.com/master/classStringArray.html">StringArray</a></td>
 		<td>
 			getSampleFileNames()<br>
 			Return currently selected sample file names
 		</td>
 	</tr>
 	<tr>
-		<td>XmlElement*</td>
+		<td><a href="https://docs.juce.com/master/classXmlElement.html">XmlElement</a>*</td>
 		<td>
 			getMetaData()<br>
 			Return metadata of current pattern
@@ -109,14 +109,14 @@ layout: nil
 		</td>
 	</tr>
 	<tr>
-		<td>AudioSampleBuffer</td>
+		<td><a href="https://docs.juce.com/master/group__juce__audio__basics-buffers.html#gab339ebab0d3b10c91c0d47c8fd2e50d2">AudioSampleBuffer</a></td>
 		<td>
 			getCurrentSampleBuffer()<br>
 			Return currently loaded sample buffer
 		</td>
 	</tr>
 	<tr>
-		<td>AudioSampleBuffer</td>
+		<td><a href="https://docs.juce.com/master/group__juce__audio__basics-buffers.html#gab339ebab0d3b10c91c0d47c8fd2e50d2">AudioSampleBuffer</a></td>
 		<td>
 			getTempBuffer()<br>
 			Return temporary buffer for audio thumbnail when modifying sample
@@ -130,7 +130,7 @@ layout: nil
 		</td>
 	</tr>
 	<tr>
-		<td>File</td>
+		<td><a href="https://docs.juce.com/master/classFile.html">File</a></td>
 		<td>
 			getCurrentPattern()<br>
 			Return currently loaded pattern file (or file name)
@@ -207,7 +207,7 @@ layout: nil
 		</td>
 	</tr>
 	<tr>
-		<td>ScopedPointer&lt;AudioSampleBuffer&gt;</td>
+		<td>ScopedPointer&lt;<a href="https://docs.juce.com/master/group__juce__audio__basics-buffers.html#gab339ebab0d3b10c91c0d47c8fd2e50d2">AudioSampleBuffer</a>&gt;</td>
 		<td>
 			getSamples(ScopedPointer&lt;AudioSampleBuffer&gt; sourceBuffer, double startPos, double destPos)<br>
 			Returns specific audioSampleBuffer from startPos to destPos proportion of entire number of samples.
@@ -438,7 +438,7 @@ layout: nil
 		</td>
 	</tr>
 	<tr>
-		<td>Array&lt;File&gt;*</td>
+		<td>Array&lt;<a href="https://docs.juce.com/master/classFile.html">File</a>&gt;*</td>
 		<td>
 			getPatterns()<br>
 			Get patterns selected on the GUI

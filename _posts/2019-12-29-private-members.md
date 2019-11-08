@@ -176,59 +176,61 @@ layout: nil
         </td>
     </tr>
     <tr>
-        <td> StringArray </td>
+        <td> <a href="https://docs.juce.com/master/classStringArray.html">StringArray</a> </td>
         <td> sampleFileNames <br>
         Base file name of currently selected pattern files.
         </td>
     </tr>
     <tr>
-        <td> File </td>
+        <td> <a href="https://docs.juce.com/master/classFile.html">File</a> </td>
         <td> currentPattern <br>
         Full path or file of current pattern sample. 
         </td>
     </tr>
     <tr>
-        <td> File </td>
+        <td> <a href="https://docs.juce.com/master/classFile.html">File</a> </td>
         <td> patternInfo <br>
         Full path or file of pattern metadata file.
         </td>
     </tr>
     <tr>
-        <td> File </td>
+        <td> <a href="https://docs.juce.com/master/classFile.html">File</a> </td>
         <td> singleInfo <br>
         Full path or file of single metadata file.
         </td>
     </tr>
     <tr>
-        <td> ScopedPointer&lt;XmlElement&gt; </td>
+        <td> ScopedPointer&lt;<a href="https://docs.juce.com/master/classXmlElement.html">XmlElement</a>&gt; </td>
         <td> singleParsed <br>
         Parsed XML information of single metadata file. 
         </td>
     </tr>
     <tr>
-        <td> ScopedPointer&lt;XmlElement&gt; </td>
+        <td> ScopedPointer&lt;<a href="https://docs.juce.com/master/classXmlElement.html">XmlElement</a>&gt; </td>
         <td> patternParsed <br>
         Parsed XML information of pattern metadata file. 
         </td>
     </tr>
     <tr>
-        <td> ScopedPointer&lt;AudioFormatReader&gt; </td>
+        <td> ScopedPointer&lt;<a href="https://docs.juce.com/master/classAudioFormatReader.html">AudioFormatReader</a>&gt; </td>
         <td> reader <br>
+        Juce::AudioFormatReader to read samples from an audio file stream. 
         </td>
     </tr>
     <tr>
-        <td> ScopedPointer&lt;AudioFormatManager&gt; </td>
+        <td> ScopedPointer&lt;<a href="https://docs.juce.com/master/classAudioFormatManager.html">AudioFormatManager</a>&gt; </td>
         <td> formatManager <br>
+        Juce::AudioFormatManager to keep a list of available audio format.
         </td>
     </tr>
     <tr>
-        <td> ScopedPointer&lt;AudioSampleBuffer&gt; </td>
+        <td> ScopedPointer&lt;<a href="https://docs.juce.com/master/group__juce__audio__basics-buffers.html#gab339ebab0d3b10c91c0d47c8fd2e50d2">AudioSampleBuffer</a>&gt; </td>
         <td> currentSampleBuffer <br>
         Currently or recently using audio sample buffer.
         </td>
     </tr>
     <tr>
-        <td> ScopedPointer&lt;AudioSampleBuffer&gt; </td>
+        <td> ScopedPointer&lt;<a href="https://docs.juce.com/master/group__juce__audio__basics-buffers.html#gab339ebab0d3b10c91c0d47c8fd2e50d2">AudioSampleBuffer</a>&gt; </td>
         <td> tempBuffer <br>
         Audio sample buffer when modifying pattern sample to draw modifying audio thumbnail.
         </td>
