@@ -631,6 +631,7 @@ code {
   color: #546974;
   padding: 0 1px;
   */
+  padding-left: 6px;
 }
 
 #content .body p > code {
